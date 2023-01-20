@@ -171,7 +171,7 @@ public:
 				vector<string> delCorrectionWordList = delChar(inputWordsVec.at(i));
 				vector<string> insCorrectionWordList = insChar(inputWordsVec.at(i));
 				vector<string> replaceCorrectionWordList = replaceChar(inputWordsVec.at(i));
-				if (!swapCorrectionWordList.empty())
+				if (!replaceCorrectionWordList.empty())
 				{
 					cout << "\nReplacing characters, we have these corrections: ";
 					for (auto correctionWord : replaceCorrectionWordList)
